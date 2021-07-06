@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocks</title>
+</head>
+<style>
+h1 {
+	text-align: center;
+}
+
+#container {
+	width: 100%;
+	height:  100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: {{content}};
+}
+
+.box {
+	height:  45%;
+	width:  23.85%;
+	background-color: {{color}};
+	margin: 0 10px 10px 10px;
+}
+</style>
+<body>
+    <h1>Welcome!</h1>
+    <div id="container">
+		{% for x in range(0,times): %}
+    		<div class="box"></div>
+		{% endfor %}
+    </div>
+</body>
+</html>

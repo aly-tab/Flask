@@ -1,0 +1,15 @@
+h1 {
+	color: blue;
+}
+
+.box {
+	height:  50px;
+	width:  50px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+

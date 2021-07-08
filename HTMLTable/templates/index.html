@@ -24,11 +24,7 @@
             {% for key, value in x.items(): %}
                 <td>{{ value }}</td>        
             {% endfor %}
-            {% for y in x %}
-                {% if loop.index == 1 %}
-                <td>{{ x['first_name'] }} {{ x['last_name'] }}</td>  
-                {% endif %}
-            {% endfor %}
+            <td>{{ x['first_name'] }} {{ x['last_name'] }}</td>
             </tr>
         {% endfor %}
         </tbody>

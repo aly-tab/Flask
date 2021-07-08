@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	margin: 0 15px;
+}
+
+.by2 {
+	background-color: blue;
+	font-size: 1.5em;
+	padding: 15px;
+	color: white;
+	border: 5px solid black;
+}
+
+.reset {
+	background-color: red;
+	font-size: 1.5em;
+	padding: 15px;
+	color: white;
+	border: 5px solid black;
+}

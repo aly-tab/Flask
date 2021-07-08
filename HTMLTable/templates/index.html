@@ -19,12 +19,10 @@
         </thead>    
         <tbody> 
         {% for x in users: %}
-            <tr>
-            {% set full_name = "" %}
-            {% for key, value in x.items(): %}
-                <td>{{ value }}</td>        
-            {% endfor %}
-            <td>{{ x['first_name'] }} {{ x['last_name'] }}</td>
+            <tr> 
+                <td>{{ x['first_name'] }}</td>
+                <td>{{ x['last_name'] }}</td>
+                <td>{{ x['first_name'] }} {{ x['last_name'] }}</td>
             </tr>
         {% endfor %}
         </tbody>
